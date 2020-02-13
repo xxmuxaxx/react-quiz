@@ -54,7 +54,7 @@ class Quiz extends Component {
         } else {
             results[question.id] = 'error'
             this.setState({
-                answerState: {[question.id]: 'error'},
+                answerState: {[answerId]: 'error'},
                 results
             }) 
         }
